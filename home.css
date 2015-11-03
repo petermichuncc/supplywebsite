@@ -1,0 +1,1176 @@
+
+
+
+/* COLORS:
+black #000
+gray #333
+warm gray 10 - #796e65 
+warm gray 7- #968c83
+warm gray 2- #cbc4bc
+warm gray 1 - #efe9e5
+red orange -  #eb462a
+*/
+
+/* CSS Document */
+
+html {
+margin-top:0!important;
+}
+.fadein { position:relative; height:332px; width:500px; }
+.fadein img { position:absolute; left:0; top:0; }
+
+.fadelinks, .faderandom { position:relative; height:332px; width:500px; }
+.fadelinks > *, .faderandom > * { position:absolute; left:0; top:0; display:block; }
+
+.multipleslides { position:relative; height:332px; width:500px; float:left; }
+.multipleslides > * { position:absolute; left:0; top:0; display:block; }
+
+html,body {
+background:#fff;
+margin:20px auto;
+padding:0;
+}
+
+body,p {
+color:#333;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:15px;
+line-height:22px;
+}
+
+a {
+color:inherit;
+text-decoration:none;
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+img a {
+border:none!important;
+text-decoration:none!important;
+}
+
+.clear {
+clear:both;
+}
+
+p {
+text-align:left;
+padding:0 0 10px;
+margin:0
+}
+
+td {
+vertical-align:top!important;
+}
+
+img {
+border:none
+}
+
+.hrLine {
+background-color:#cbc4bc;
+height:1px;
+margin:2px 0 15px;
+width:100%;
+}
+
+.hor-border {
+border-bottom:1px solid #cbc4bc;
+height:1px;
+margin:.2em 0 1.2em 0;
+}
+
+/* ----------------------- UNIVERSAL TEXT STYLES-----------------------*/
+h1,h2,h3,h4,h5,h6 {
+margin:0;
+padding:0;
+text-align:left;
+font-weight:300
+}
+
+h1,h3,h4,h5,h6 {
+color:#796e65;
+}
+
+h1 {
+font-family:'QuattrocentoSansRegular',sans-serif;
+font-size:1.8em;
+letter-spacing:2px;
+line-height:1.2em;
+padding:10px 0;
+text-transform:uppercase;
+}
+
+h2 {
+font-family:'QuattrocentoSansRegular',sans-serif;
+font-size:130%;
+letter-spacing:2px;
+line-height:1.3em;
+padding:5px 0 10px;
+text-transform:uppercase;
+}
+
+h3 {
+font-size:130%;
+line-height:1.5em;
+padding:10px 0;
+}
+
+h4 {
+font-size:110%;
+line-height:1.5em;
+padding-top:20px;
+}
+
+h5 {
+font-family:'QuattrocentoSansRegular',sans-serif;
+font-size:1.6em;
+letter-spacing:1px;
+line-height:1.2em;
+padding:10px 0;
+text-transform:uppercase;
+}
+
+h6 {
+color:#796e65;
+font-size:100%;
+}
+
+h6 a:link, h6 a:visited, h6 a:hover, h6 a:active {
+color:#796e65!important;
+text-decoration:none!important;
+}
+
+.main p,.main ul {
+font-size:1.6em;
+line-height:1.5em;
+padding-bottom:10px;
+}
+
+.main ul ul {
+font:inherit;
+list-style-type:none;
+}
+
+.main ul {
+list-style-type:disc;
+margin-top:0;
+padding-top:0;
+}
+
+.main li {
+padding:3px 0;
+}
+
+/* Buttons ____________________________ */
+.btn, .btn-link {
+background:url(/uniquesig1eb67cc8f22a58cc35f65bf2c2e76e30/uniquesig0/images/hor-btn-background.gif) repeat 0 0 #efe9e5;
+color:#EB462A;
+font-family:'GentiumBasicRegular', serif;
+font-size:100%;
+letter-spacing:1px;
+margin:0 5px;
+display:inline-block;
+padding:5px 15px;
+text-transform:uppercase;
+border:1px solid #cbc4bc;
+text-decoration:none!important;
+}
+
+.btn-link:visited {
+color:#EB462A!important;
+text-decoration:none!important;
+}
+
+.btn:hover,.btn-link:hover {
+-moz-transition:color .3s ease;
+-ms-transition:color .3s ease;
+-o-transition:color .3s ease;
+-webkit-transition:color .3s ease;
+background:url(images/hor-btn-background-hover.gif) repeat 0 0 #eb462a;
+color:#fff!important;
+transition:color .3s ease;
+cursor: pointer;
+border:1px solid #cbc4bc;
+}
+
+.btn:active, .btn-link:active {
+bottom:-1px;
+left:1px;
+position:relative;
+color:#ffffff!important;
+}
+
+/* ----------------------- Template Header -----------------------*/
+#wrapper {
+margin:0 auto;
+padding:0;
+width:900px;
+}
+
+#header-phone {
+position:relative;
+top:20px;
+float:right;
+font-size:90%;
+letter-spacing:1px;
+font-family: 'QuattrocentoSansRegular',sans-serif;
+}
+
+#logo {
+margin:0 auto 10px;
+text-align:center;
+}
+/*A div that a div that holds the menu is inside of*/
+#nav {
+margin:0 auto;
+text-align:center;
+z-index:4000;
+
+padding: 0;
+}
+.test
+{
+    background-color: yellow;
+    padding: 0;
+margin:0 auto 0;
+}
+/* Main Menu Items ____________________________ */
+/*ul.menu {
+
+border-bottom:1px solid #cbc4bc;
+border-top:1px solid #cbc4bc;
+width:860px;
+}*/
+/*A div that the menu is inside of*/
+.menu-newnav2-container
+{   height: 82%;
+    
+ border-bottom:1px solid #cbc4bc;
+border-top:1px solid #cbc4bc;
+width:900px;
+padding: 0;
+margin:0 auto 0;
+}
+/*This is the main menu whose texts contents i need to center align*/
+.menu,#content ul.hpquicknav {
+ /*   border-bottom:1px solid #cbc4bc;*/
+/*border-top:1px solid #cbc4bc;*/
+padding: 0;
+     position: relative;
+margin:0px auto 0;
+text-align: right;
+color:#000;
+display:inline-block;
+font-family:'QuattrocentoSansRegular',sans-serif;
+font-size:1em;
+font-weight:400;
+letter-spacing:1px;
+line-height:1em;
+
+text-transform:uppercase;
+}
+
+#content ul.hpquicknav {
+     background-color:yellow;
+     position: relative;
+margin:0px auto 0;
+text-align: right;
+font-size:80%;
+
+}
+
+.menu ul li {
+
+-moz-transition:height .18s ease .15s;
+-ms-transition:height .18s ease .15s;
+-o-transition:height .18s ease .1s;
+-webkit-transition:height .18s ease .15s;
+background:#FFF;
+border-left:1px solid #cbc4bc;
+border-right:1px solid #cbc4bc;
+height:0;
+overflow:hidden;
+padding:0;
+transition:height .18s ease .15s;
+width:100%;
+margin:0
+}
+
+.menu li,#content ul.hpquicknav li {
+
+background:#FFF;
+border-left:1px solid #cbc4bc;
+cursor:pointer;
+display:block;
+float:left;
+list-style:none;
+padding:8px 0;
+position:relative;
+margin:2px 0 3px
+}
+
+.menu li:last-child,#content ul.hpquicknav li:last-child {
+border-right:1px solid #cbc4bc;
+}
+
+.menu li a,#content ul.hpquicknav li a {
+color:#000;
+display:block;
+padding:0 14px;
+text-decoration:none;
+}
+
+/* Main Nav Drop Down Menus ____________________________ */
+.subnav,.sub-menu {
+-moz-transition:opacity .25s ease .15s;
+-ms-transition:opacity .25s ease .15s;
+-o-transition:opacity .25s ease .15s;
+-webkit-transition:opacity .25s ease .15s;
+background:#FFF;
+left:-1px;
+margin:0;
+opacity:0;
+padding:0;
+position:absolute;
+text-align:left;
+top:32px;
+transition:opacity .25s ease-in-out .15s;
+z-index:5000;
+}
+
+.subnav li {
+}
+
+.subnav li:hover,.sub-menu li:hover {
+border-top:none;
+color:#000!important;
+cursor:pointer;
+}
+
+.subnav li a,.sub-menu li a {
+letter-spacing:0;
+padding:10px 15px;
+text-transform:none;
+white-space:nowrap;
+}
+
+.subnav li a:hover,.sub-menu li a:hover {
+color:#000;
+}
+
+.menu li:hover,.subnav li:hover,#footer a:hover,#content ul.hpquicknav li:hover {
+-moz-transition:background-color .2s ease;
+-ms-transition:background-color .2s ease;
+-o-transition:background-color .2s ease;
+-webkit-transition:background-color .2s ease;
+background-color:#efe9e5;
+background-image:none;
+transition:background-color .2s ease;
+}
+
+.menu li:hover > ul {
+opacity:1;
+}
+
+.subnav li:first-child,.subnav li:first-child:hover,.sub-menu li:first-child,.sub-menu li:first-child:hover {
+border-top:1px solid #cbc4bc; 
+}
+
+.menu li:hover > ul li {
+height:35px;
+overflow:visible;
+margin:0!important
+}
+
+.subnav li:last-child,.subnav li:last-child:hover,.sub-menu li:last-child,.sub-menu li:last-child:hover {
+border-bottom:1px solid #cbc4bc;
+}
+
+.menu li:active,.subnav li:active,.footer a:active,.side-nav li:active,.sub-menu li:active,#content ul.hpquicknav li:active {
+background-color:#eb462a;
+transition:none;
+}
+
+/* ----------------------- Template Footer -----------------------*/
+#footer {
+border-top:1px solid #cbc4bc;
+font-size:85%;
+margin:15px 0 0;
+padding:5px 0 30px;
+text-align:left;
+}
+
+#footer ul {
+display:inline-block;
+list-style-type:none;
+margin:0 auto;
+padding:0;
+}
+
+#footer li {
+color:#000;
+display:inline;
+float:left;
+font-family:'QuattrocentoSansRegular', sans-serif;
+font-weight:400;
+letter-spacing:1px;
+padding:0 5px;
+text-transform:uppercase;
+}
+
+#footer a {
+padding:5px;
+}
+
+#footer .contact-us {
+border-left:1px solid #cbc4bc;
+border-right:1px solid #cbc4bc
+}
+
+#footer .phone, #footer .address {
+text-transform:none;
+padding-left:10px;
+padding-right:10px
+}
+
+#footer .phone {
+border-right:1px solid #cbc4bc
+}
+
+#footer .copyright {
+text-transform:none;
+color:#968c83;
+font-family:Verdana, Geneva, sans-serif;
+letter-spacing:0;
+font-size:80%;
+padding-right:12px
+}
+
+#social-icons {
+float:right;
+}
+
+#social-icons a {
+margin:0;
+padding:0;
+}
+
+#social-icons a:hover,#logo a:hover {
+-moz-transition:all .1s ease;
+-ms-transition:all .1s ease;
+-o-transition:all .1s ease;
+-webkit-transition:all .1s ease;
+background:none;
+opacity:.7;
+position:relative;
+transition:all .1s ease;
+}
+
+#social-icons a:active,#logo a:active {
+opacity:1;
+position:relative;
+top:1px;
+left:1px
+}
+
+/* Page content structure layout ____________________________ */
+
+#content {
+left:0;
+margin:20px auto 40px;
+padding:0;
+position:relative;
+width:900px;
+}
+
+#content .leftCol {
+float:left;
+width:200px;
+}
+
+#content .rightCol {
+float:right;
+width:675px;
+}
+
+#content td {
+vertical-align:top;
+}
+
+#content .page-banner {
+width:675px;
+height:230px;
+display: block;
+margin: 0 0 10px;
+}
+
+#content .rightCol .storycontent .contentHeaderImg {
+padding:0 0 20px;
+vertical-align:top;
+width: 675px;
+height:auto
+}
+
+#content .rightCol .storycontent .contentHeaderModel {
+float: right;
+margin: 0 10px -90px 20px;
+padding: 0;
+position: relative;
+top: -110px;
+}
+
+#content .storycontent .postBreak {
+clear:both;
+}
+
+.rightCol .col1 {
+width:400px;
+float:left
+}
+
+.rightCol .col2 {
+width:250px;
+float:right;
+margin-left:20px
+}
+
+/* Page content styling ____________________________ */
+
+#content .storycontent ul,#content .hpTable ul, .getInfo ul {
+font-size:95%;
+margin:0;
+padding:0 0 10px 30px
+}
+
+#content .storycontent li,#content .hpTable li, .getInfo li {
+padding:3px 0;
+}
+
+#content .storycontent li,#content .hpTable li {
+padding:3px 0;
+}
+
+/* Nested List styles. Removes padding for 3rd level ___ */
+
+#content .storycontent ul > li > ul {
+margin: 0 !important;
+padding-bottom: 0 !important;
+}
+
+#content .storycontent ul > li > ul li {
+
+
+}
+
+.iframe-label, .label {
+font-size: 95% !important;
+padding:10px 0;
+font-family: 'QuattrocentoSansRegular',sans-serif;
+}
+
+.required-note {
+font-size: 80%;
+font-style: italic;
+font-weight: bold;
+}
+
+#content p em {
+    color: #eb462a;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#content .caption {
+font-style:italic;
+color:#796e65;
+text-indent:20px
+}
+
+/* HubSpot Buttons ____________________________ */
+
+.hs-cta-wrapper {
+    display: block;
+}
+
+.hubspot-cta {
+float:right;
+margin:0 0 0 20px;
+}
+
+.hubspot-cta-left {
+margin:0 20px 0 0
+}
+
+.hubspot-brochure {
+margin-top:30px
+}
+
+.hubspot-brochure img {
+width:131px!important;
+height:157px!important;
+}
+
+/* Content and gallery link styling ____________________________ */
+
+#content .storycontent a:link,.gallery a:link, .dimensions a:link {
+color:#EB462A;
+}
+
+#content .storycontent a:visited,.gallery a:visited, .dimensions a:visited {
+color:#EB462A;
+}
+
+#content .storycontent a:hover,.gallery a:hover, .dimensions a:hover {
+-moz-transition:all .15s ease-in;
+-ms-transition:all .15s ease-in;
+-o-transition:all .15s ease-in;
+-webkit-transition:all .15s ease-in;
+color:#333;
+transition:all .15s ease-in;
+text-decoration:underline
+}
+
+#content .storycontent a:active,.gallery a:active, .dimensions a:active {
+background-color:#EB462A;
+color:#FFF;
+transition:none;
+-moz-transition:none;
+-ms-transition:none;
+-o-transition:none;
+}
+
+#content .storycontent a img,.gallery a img {
+text-decoration:none!important;
+}
+
+#content .storycontent a:active img,.gallery a:active img {
+background:none!important;
+text-decoration:none!important;
+}
+
+/* .leftCol Sub navigation ____________________________ */
+
+#subNav {
+font-weight:400;
+left:0;
+list-style:none outside none;
+margin:10px 0;
+padding:5px 0;
+position:relative;
+top:0;
+width:200px;
+z-index:400;
+}
+
+#subNav ul {
+font-family:'QuattrocentoSansRegular',sans-serif;
+list-style:none;
+margin:0;
+padding:0;
+text-align:left;
+line-height:100%
+}
+
+#subNav li {
+border-bottom:1px solid #cbc4bc;
+margin:0;
+position:relative;
+z-index:401;
+}
+
+#subNav li:first-child {
+border-top:1px solid #cbc4bc;
+}
+
+#subNav ul li.page_item a {
+display:block;
+padding:10px;
+text-decoration:none;
+}
+
+#subNav ul li.page_item a:hover {
+-moz-transition:all .15s ease;
+-ms-transition:all .15s ease;
+-o-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+color:#eb462a;
+cursor:pointer;
+transition:all .15s ease;
+}
+
+#subNav ul li.page_item a:active {
+background-color:#eb462a;
+color:#fff;
+transition:none;
+}
+
+#subNav ul li.page_item ul.children li {
+border:none;
+display:block;
+font-size:90%;
+font-weight:300!important;
+margin:0;
+position:relative;
+text-indent:.8em;
+}
+
+#subNav ul li.page_item ul.children li ul li a {
+padding:6px;
+text-indent:2em;
+}
+
+.parentBreadcrumb  {
+font-size: 120%;
+letter-spacing: 1px;
+text-transform: uppercase;
+line-height:110%
+}
+
+.wheretobuy a {
+color: #EB462A;
+display: block;
+font-family: 'QuattrocentoSansRegular',sans-serif;
+font-size: 100%;
+letter-spacing: 1px;
+padding: 5px 10px;
+text-transform: uppercase;
+}
+
+.wheretobuy a:hover {
+-moz-transition:all .3s ease;
+-ms-transition:all .3s ease;
+-o-transition:all .3s ease;
+-webkit-transition:all .3s ease;
+color:#000!important;
+transition:all .3s ease;
+}
+
+.wheretobuy a:visited {
+color: #EB462A;
+}
+
+/* Dev Note: unsure of usage for these subnav tables. Commented Out.
+
+#subNav table tr td:hover table tr td a:hover,#subNav table tr td.over table tr td a:hover,#subNav table tr td table tr td a:hover {
+background-image:none!important;
+text-decoration:underline;
+}
+
+#subNav table tr td:hover table,#subNav table tr td.over table {
+position:relative;
+z-index:720!important;
+}
+
+*/
+
+/* Homepage Photo Navigation ____________________________ */
+.nav-pic {
+     display: inline-block;
+     float: left;
+     list-style: none outside none;
+     margin: 0px 0px 20px;
+     padding: 0px;
+     width: 100%;
+}
+
+.nav-pic li {
+     border: 4px solid #FFFFFF;
+     display: inline;
+     float: left;
+     height: 160px;
+     margin: 0px;
+     overflow: hidden;
+     width: 217px;
+}
+
+.nav-pic li:last-child {
+     padding: 0px ! important;
+}
+
+.nav-pic img {
+height: 177px;
+margin: -8.5px 0px 0px -11.5px;
+width: 240px;
+-webkit-transition:all 0.2s ease 0s;
+-moz-transition: all 0.2s ease 0s;
+-o-transition: all 0.2s ease 0s;
+transition: all 0.2s ease 0s;
+}
+
+.nav-pic img:hover {
+     height: 160px;
+     margin: 0px;
+     overflow: hidden;
+     width: 217px;
+}
+
+/* Fireplace home/overview page NO LONGER IN USE ____________________________ 
+
+#content ul.hpquicknav {
+left:0;
+list-style:none;
+margin:0;
+padding:0;
+position:relative;
+text-align:left;
+top:0;
+}
+
+#content .hpTable {
+clear:both;
+}
+#content .hpMiddleTable {
+font-size:85%;
+height:161px;
+width:308px;
+}
+
+#content .hpMiddleTable td {
+padding:0px 10px 15px
+}
+
+#content .hpMiddleTable p {
+font-size:100%
+}
+
+#content .hpMiddleTable .hpMiddleTableTDA,#content .hpMiddleTable .hpMiddleTableTDB,#content .hpMiddleTable .hpMiddleTableTDC,#content .hpMiddleTable .hpMiddleTableTDD {
+width:152px;
+}
+
+#content .hpMiddleTable .hpMiddleTableTDA {
+border-bottom:1px solid #cbc4bc;
+border-right:1px solid #cbc4bc;
+}
+
+
+#content .hpMiddleTable .hpMiddleTableTDB {
+border-bottom:1px solid #cbc4bc;
+height:80px;
+}
+
+#content .hpMiddleTable .hpMiddleTableTDC {
+border-right:1px solid #cbc4bc;
+padding:10px 5px 0 2px;
+}
+
+#content .hpMiddleTable .hpMiddleTableTDD {
+padding:10px 5px 0 15px;
+}
+
+#content .rightCol .storycontent .fireRockSystemsInstallSteps td h1,#content .rightCol .storycontent .fireRockSystemsInstallSteps td h5 {
+padding-left:20px;
+}
+
+*/
+
+/* Fireplace Product Detail pages ____________________________ */
+
+#content .rightCol .storycontent .fireRockSystemsInstallSteps {
+width:100%;
+clear:both;
+}
+
+#content .rightCol .storycontent .pictureFramed {
+margin:5px;
+padding:0;
+}
+
+#content .dimensions, #content .chimney-pot-downloads {
+width:100%;
+line-height:1.3em
+}
+
+#content .dimensions td {
+border-bottom:1px solid #cbc4bc;
+font-size:85%;
+line-height:1.2em;
+padding:10px 5px;
+text-align:center;
+}
+
+#content .slate td, #content .engineered td {
+font-size:100%;
+padding: 10px 20px
+}
+
+#content .chimney-pot-downloads td {
+border-bottom:1px solid #cbc4bc;
+}
+
+#content .install-notes {
+float:left;
+width:45%
+}
+
+#content .install-notes.left {
+margin-right:30px;
+}
+
+#content .drawings-specs td {
+    border-bottom: 1px solid #cbc4bc;
+    border-right: 1px solid #cbc4bc;
+    padding: 0 10px;
+    vertical-align: middle!important;
+}
+
+/* Fireplace Product Category pages ____________________________ */
+
+.fireplace-product-grid {
+    float: left;
+    list-style: none outside none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.fireplace-product-grid li {
+    display: block;
+    float: left;
+    margin: 20px;
+    width: 40%;
+}
+.fireplace-product-grid dl {
+    display: block;
+    height: 110px;
+    margin-top: 8px;
+}
+.fireplace-product-grid dl dt img {
+    float: left;
+    margin-right: 15px;
+}
+.fireplace-product-grid dd {
+    font-size: 94%;
+    line-height: 1.5em;
+}
+
+#products #content .rightCol .storycontent ul,#indoorfireplaces #content .rightCol .storycontent ul,#outdoorfireplaces #content .rightCol .storycontent ul,#masonryaccessories #content .rightCol .storycontent ul {
+left:0;
+list-style:none;
+list-style-type:none;
+margin:0;
+padding:0;
+position:relative;
+top:0;
+}
+
+#products #content .rightCol .storycontent ul li,#indoorfireplaces #content .rightCol .storycontent ul li,#outdoorfireplaces #content .rightCol .storycontent ul li,#masonryaccessories #content .rightCol .storycontent ul li {
+float:left;
+height:230px;
+margin:0 15px 15px 0;
+position:relative;
+top:0;
+width:287px;
+}
+
+.wp-caption-dt a:hover {
+position: relative;
+top: 3px;
+}
+
+dl.wp-caption br {
+display:none;
+}
+
+dl.wp-caption dd.wp-caption-dd {
+font-size:90%;
+height:177px;
+margin:0;
+padding:5px;
+position:absolute;
+right:10px;
+top:30px;
+width:155px;
+}
+
+dl.wp-caption {
+padding:0;
+}
+
+
+/* Fireplace Applications and Ronda images _______________ */
+
+.app-ronda-images {
+float: left;
+margin: 0;
+padding: 0;
+width: 50%;
+}
+
+.app-ronda-images ul {
+list-style: none outside none;
+margin: 0 !important;
+padding: 0 !important;
+}
+
+.app-ronda-images li {
+padding-bottom:10px!important;
+}
+
+.app-ronda-images img {
+height: 200px;
+max-width: 280px;
+width: auto;
+}
+
+.ronda-caption h6 {
+margin-bottom: 20px;
+margin-top: -40px;
+}
+
+/* Fireplace packages ____________________________ */
+
+#packages #content .storycontent ul li {
+float:left;
+padding:0 10px 10px;
+}
+
+#packages #content .storycontent ul li img {
+display:block;
+}
+
+#packages #content .storycontent ul {
+left:0;
+list-style:none;
+list-style-type:none;
+margin:0;
+padding:0;
+position:relative;
+top:0;
+}
+
+/* Paver and Flooring Styles ____________________________ */
+
+.product-cat-banner {
+margin:10px 0 10px -22px;
+}
+
+.color-options td img {
+padding-right:20px;
+padding-top:10px;
+}
+
+/* Image gallery ____________________________ */
+
+.gallery {
+}
+
+.gallery,.gallery .storycontent {
+}
+
+.gallery .postedImg {
+float:left;
+margin:0px 10px;
+overflow:hidden;
+width:200px;
+}
+
+.gallery .postedImg img {
+height:auto;
+width:200px;
+}
+
+.gallery .postedImg p {
+margin:0;
+padding:0;
+}
+
+.gallery .postedImg p.wp-caption-text {
+background-color:#CCC;
+height:25px;
+left:0;
+line-height:25px;
+position:relative;
+top:-5px;
+}
+
+.more-link {
+display:block;
+font-size:80%;
+text-indent:8px;
+margin:0 0 10px;
+}
+
+
+/* Image gallery post pages ____________________________ */
+
+.single .storycontent {
+overflow:hidden;
+width:550px!important;
+}
+
+.singlePost .storycontent img {
+height:auto;
+width:540px;
+}
+
+.singlePost .storycontent table.hidden {
+display:none;
+}
+
+.single #sidebar {
+height:0!important;
+overflow:hidden!important;
+width:0!important;
+}
+
+.postSharePrintEmail {
+clear:both;
+margin-top:20px;
+font-size:90%;
+}
+
+.postSharePrintEmail ul {
+list-style:none;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.postSharePrintEmail ul li {
+float:left;
+padding-right:10px;
+}
+
+/* WP post page numbers override ____________________________ */
+
+#wp_page_numbers ul {
+border-top:none!important;
+}
+
+#wp_page_numbers li.page_info {
+border-bottom:none!important;
+border-top:none!important;
+color:inherit!important;
+display:block;
+float:left;
+font-family:inherit!important;
+padding:3px 5px 3px 3px;
+}
+
+
+#wp_page_numbers li.active_page a {
+background:#eb462a!important;
+border-bottom:none!important;
+border-top:none!important;
+color:#fff!important;
+}
+
+#wp_page_numbers a {
+border-bottom:none!important;
+border-top:none!important;
+color:inherit!important;
+display:block!important;
+font-family:inherit!important;
+}
+
+#wp_page_numbers li a:hover {
+background:#efe9e5!important;
+border-bottom:none!important;
+border-top:none!important;
+color:inherit!important;
+margin-top:-2px!important;
+}
