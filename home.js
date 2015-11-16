@@ -1,7 +1,8 @@
 $(document).ready(function(){
 var num_of_modulenav = 0;
 	var modulenav_counter = 0;
-
+ $('select').select2();
+  $(".js-example-basic-multiple").select2();
 	// module nav items - adds custom classes to first and last li
 	if(jQuery("div.menu-mainnav-container ul.menu li").length){
 		num_of_modulenav = (jQuery("div.menu-mainnav-container ul.menu li.menu-item").length)-1;
