@@ -10,49 +10,7 @@
  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
    <script src="../home.js"></script>
     <link rel="stylesheet" type="text/css" href="../home.css">
-    <script type="text/javascript">
-jQuery(document).ready(function(){
-
-	var num_of_modulenav = 0;
-	var modulenav_counter = 0;
-
-	// module nav items - adds custom classes to first and last li
-	if(jQuery("div.menu-mainnav-container ul.menu li").length){
-		num_of_modulenav = (jQuery("div.menu-mainnav-container ul.menu li.menu-item").length)-1;
-		jQuery("div.menu-mainnav-container ul.menu li.menu-item:eq("+0+")").addClass('first');
-		//$("div.menu-mainnav-container ul.menu li.menu-item:eq("+5+")").addClass('last');
-	};
-
-	// check for child nav item and append hoverOn class if exists
-	// provides the sub slide out menu function
-	jQuery("#header #sectionMenu ul li ul li").mouseenter(function() {
-		if(jQuery('#header #sectionMenu ul li ul li ul').length){
-			jQuery(this).addClass('hoverOn');
-		}
-  		}).mouseleave(function() {
-    			jQuery(this).removeClass('hoverOn');
-			});
-			if(jQuery('.hs-cta-img')){
-			jQuery('.hs-cta-img').css('height','65px');
-	    jQuery('.hs-cta-img').css('width','auto');
-			}
-	
-	
-	// jQuery('#js-container').jsquares();
-});
-$(function() {
-    var availableTags = [
-      "Corrugated boxes",
-      "Roll film",
-      "Bags",
-      "Labels",      
-      
-    ];
-    $( "#tags" ).autocomplete({
-      source: availableTags
-    });
-  });
-</script>
+    
    
 <style type="text/css">
 	#js-container{width:630px;}
@@ -116,7 +74,7 @@ $(function() {
 <h3>Description here</h3>
 
 </div>
-<div class="split-page col2"><img alt="fireplace beauty" src="http://www.creativedisplaysnow.com/wp-content/uploads/2015/01/16_floor_display_pallet_walmart_1-250x276.jpg"  /></div>
+<div class="split-page col2"><img alt="" src="http://www.creativedisplaysnow.com/wp-content/uploads/2015/01/16_floor_display_pallet_walmart_1-250x276.jpg"  /></div>
 			</div>
 	
 			<div class="postBreak"></div>

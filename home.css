@@ -99,6 +99,11 @@ h1,h3,h4,h5,h6 {
 color:#796e65;
 }
 
+li.testli{
+   font-family:'QuattrocentoSansRegular',sans-serif;
+color:#796e65;
+
+}
 h1 {
 font-family:'QuattrocentoSansRegular',sans-serif;
 font-size:1.8em;
@@ -107,7 +112,17 @@ line-height:1.2em;
 padding:10px 0;
 text-transform:uppercase;
 }
-
+.format-icon:before {
+    speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 10px;
+  opacity: 0.2;
+  position: relative;
+  top: 8px;
+  display: none;
+  font: normal normal 1.2em/1 'entypo';
+}
 h2 {
 font-family:'QuattrocentoSansRegular',sans-serif;
 font-size:130%;
@@ -270,7 +285,7 @@ text-align: right;
 color:#000;
 display:inline-block;
 font-family:'QuattrocentoSansRegular',sans-serif;
-font-size:1em;
+font-size:.92em;
 font-weight:400;
 letter-spacing:1px;
 line-height:1em;
@@ -327,7 +342,10 @@ display:block;
 padding:0 14px;
 text-decoration:none;
 }
+.test
+{
 
+}
 /* Main Nav Drop Down Menus ____________________________ */
 .subnav,.sub-menu {
 -moz-transition:opacity .25s ease .15s;

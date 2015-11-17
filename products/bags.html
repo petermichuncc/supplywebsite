@@ -1,58 +1,29 @@
+
 <!DOCTYPE html>
-<html>
+
+<html >
+<!--<![endif]-->
 <head>
-   <link rel="profile" href="http://gmpg.org/xfn/11" />
+ <!-- Hide this line for IE (needed for Firefox and others) -->
 
+<!-- This is needed for IE -->
+<link rel="shortcut icon" href="http://yourwebsite/images/favicon.ico" type="image/ico" />
 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> 
  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
    <script src="../home.js"></script>
     <link rel="stylesheet" type="text/css" href="../home.css">
-    <script type="text/javascript">
-jQuery(document).ready(function(){
-
-	var num_of_modulenav = 0;
-	var modulenav_counter = 0;
-
-	// module nav items - adds custom classes to first and last li
-	if(jQuery("div.menu-mainnav-container ul.menu li").length){
-		num_of_modulenav = (jQuery("div.menu-mainnav-container ul.menu li.menu-item").length)-1;
-		jQuery("div.menu-mainnav-container ul.menu li.menu-item:eq("+0+")").addClass('first');
-		//$("div.menu-mainnav-container ul.menu li.menu-item:eq("+5+")").addClass('last');
-	};
-
-	// check for child nav item and append hoverOn class if exists
-	// provides the sub slide out menu function
-	jQuery("#header #sectionMenu ul li ul li").mouseenter(function() {
-		if(jQuery('#header #sectionMenu ul li ul li ul').length){
-			jQuery(this).addClass('hoverOn');
-		}
-  		}).mouseleave(function() {
-    			jQuery(this).removeClass('hoverOn');
-			});
-			if(jQuery('.hs-cta-img')){
-			jQuery('.hs-cta-img').css('height','65px');
-	    jQuery('.hs-cta-img').css('width','auto');
-			}
-	
-	
-	// jQuery('#js-container').jsquares();
-});
-$(function() {
-    var availableTags = [
-      "Corrugated boxes",
-      "Roll film",
-      "Bags",
-      "Labels",      
-      
-    ];
-    $( "#tags" ).autocomplete({
-      source: availableTags
-    });
-  });
-</script>
+   
    
 <style type="text/css">
 	#js-container{width:630px;}
@@ -61,12 +32,14 @@ $(function() {
 </style>
 
 
-   <title>Corrugated Products</title>
+   <title>Bags/Pouches</title>
 </head>
-<!-- <div id="header-phone">Call 704-906-1135</div>
-     <div class="clear"></div> -->
 
-<div id="logo"> <a href="../index.html"><img  src="http://s7.postimg.org/50gs5jta3/LBmktg3_largegrey.jpg" class= "border" width="150" height="160"  alt=""></a></div> 
+
+   
+     <div class="clear"></div>
+
+   <div id="logo"> <a href="../index.html"><img  src="http://s7.postimg.org/50gs5jta3/LBmktg3_largegrey.jpg" class= "border" width="150" height="160"  alt=""></a></div> 
          
 <div style="height: 40px;" id="nav">
         
@@ -100,7 +73,7 @@ $(function() {
 </ul>
 </li>
 <li id="menu-item-4470" ><a href="../contact.html">Contact Us</a></li>
-<li id="menu-item-4470" ><a href="contact.html">Request a Quote</a></li>
+<li id="menu-item-4470" ><a href="corrugatedquote.html">Request a Quote</a></li>
 <!-- {{>product}} -->
 </ul></div>         
 </div> <!-- End nav --><!-- start content div -->
@@ -111,12 +84,48 @@ $(function() {
 		<div class="post-8 page type-page status-publish hentry" id="post-8">
 			
 			<div class="storycontent">
-				<h1>Bags/Pouches</h1>
+				<h1>Bags, Pouches</h1>
 <div class="split-page col1">
-<h3>Description here</h3>
+<h3>We serve the needs of manufacturers in a variety of growing markets:</h3>
+<ul>
+  <li class="testli">Food Products</li>
+  <li class="testli">Pet Products</li>
+  <li class="testli">Confection</li>
+  <li class="testli">Lawn &amp; Garden</li>
+  <li class="testli">Health &amp; Personal Care</li>
+  <li class="testli">Consumer Products</li>
+  <li class="testli">Tobacco</li>
+</ul>
+
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Bags
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li ><a href="#">Sideweld (Laminated &amp; Surface Printed)</a></li>
+    <li><a href="#">Bottom Gusset</a></li>
+    <li><a href="#">Handles</a></li>
+    <li><a href="#">Zippers</a></li>
+    <li><a href="#">Wicketed Bags</a></li>
+  </ul>
+</div>
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Pouches
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Standup</a></li>
+    <li><a href="#">Side Gusset/Quad Seal</a></li>
+    <li><a href="#">Flat</a></li>
+    <li><a href="#">Eco-Friendly</a></li>
+    <li><a href="#">Zippers</a></li>
+  </ul>
+</div>
 
 </div>
-<div class="split-page col2"><img alt="fireplace beauty" width="250" height="250" src="https://swisspackaustralia.files.wordpress.com/2015/04/52731011_h.jpg"  /></div>
+<div class="split-page col2"><img alt="" width="300" height="300" src="https://swisspackaustralia.files.wordpress.com/2015/04/52731011_h.jpg"  /></div>
 			</div>
 	
 			<div class="postBreak"></div>
@@ -127,7 +136,7 @@ $(function() {
     <div class="leftCol">
 		<!-- start subNav -->
         	<div id="subNav">
-									  <ul>
+									    <ul>
 					
 <li class="page_item page-item-12"><a href="Corrugated.html">Corrugated Boxes/Displays</a></li>
 <li class="page_item page-item-89"><a href="labels.html">Labels</a></li>
@@ -144,7 +153,8 @@ $(function() {
 </div>
 <!-- end content div -->
 		<div style="clear:both;"></div>
-<div id="footer">
+<!-- start footer -->
+	<div id="footer">
     	<div style="float:left">
             <ul>
             <li><a href="">Home</a></li>
@@ -156,5 +166,16 @@ $(function() {
         
      </div><!-- End Footer -->
 
-</div> <!--End wrapper -->
-</html>
+ <!--End wrapper -->
+
+
+
+
+
+
+
+
+<!-- INSERT THIS CODE IN YOUR PAGE HEAD ON EVERY PAGE -->
+
+
+</html><!-- end footer -->
