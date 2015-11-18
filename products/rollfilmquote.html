@@ -7,20 +7,14 @@
   <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
 
   
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="bootstrap-multiselect.js"></script>
-<link rel="stylesheet" href="bootstrap-multiselect.css" type="text/css"/>
- <script type="text/javascript">
-    $(document).ready(function() {
-        $('#example-getting-started').multiselect();
-    });
-</script>
   
 
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -28,7 +22,7 @@
 
    <script src="../home.js"></script>
     <link rel="stylesheet" type="text/css" href="../home.css">
-   <title>Contact Page</title>
+   <title>Quote Page</title>
 </head>
 
 
@@ -74,12 +68,25 @@
     
       
       <div style="width:800px; margin:0 auto;" align="center"  class="storycontent">
- <form name="contactform" align="center" method="post" action="https://script.google.com/macros/s/AKfycbzhOcVtK4xCagDucgcic6RHNkiLaFGuXG2nVJtryK7iNPInw03S/exec">
-
-<table width="450px" align="center">
- <tr><label class="control-label col-sm-2"><FONT  COLOR="#009999" SIZE="+1"  FACE="Arial"> Online Quote
+        <label align="center"><FONT  COLOR="#009999" SIZE="+1"  FACE="Arial"> Online Quote
     Form</FONT></label>
-  </tr>
+ <form name="contactform" align="center" method="post" action="https://script.google.com/macros/s/AKfycbzhOcVtK4xCagDucgcic6RHNkiLaFGuXG2nVJtryK7iNPInw03S/exec">
+ 
+<table width="450px" align="center">
+ 
+<tr align="center">
+ 
+ <td valign="top">
+ 
+ 
+ <br>
+ </td>
+ 
+
+ 
+</tr>
+
+
 <tr align="center">
  
  <td valign="top">
@@ -90,8 +97,8 @@
  
  <td valign="center">
  
-  <input align="center"  type="text" name="name" maxlength="50" size="30" class="form-control" id="" placeholder="Enter name">
-  
+  <input align="center"  type="text" class="form-control" name="name" maxlength="50" size="30" class="form-control" id="" placeholder="Enter name">
+ 
  </td>
  
 </tr>
@@ -188,8 +195,29 @@
  
 </tr>
  
-<tr>
+
   <tr>
+ 
+ <td valign="top">
+ 
+  <label for="telephone">Product</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+ <select multiple class="form-control" id="sel2">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+ 
+ </td>
+ 
+</tr>
+ <tr>
  
  <td valign="top">
  
@@ -204,7 +232,6 @@
  </td>
  
 </tr>
- 
 <tr>
  
  <td valign="top">
@@ -215,7 +242,7 @@
  
  <td valign="top">
  
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ <textarea class="form-control" rows="5" id="comment"></textarea>
  
  </td>
  
@@ -235,14 +262,7 @@
  
 </form>
 
-    <select id="example-getting-started" multiple="multiple">
-    <option value="cheese">Cheese</option>
-    <option value="tomatoes">Tomatoes</option>
-    <option value="mozarella">Mozzarella</option>
-    <option value="mushrooms">Mushrooms</option>
-    <option value="pepperoni">Pepperoni</option>
-    <option value="onions">Onions</option>
-</select>
+     
 
  
 
