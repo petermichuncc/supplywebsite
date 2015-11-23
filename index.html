@@ -4,9 +4,21 @@
    <link rel="profile" href="http://gmpg.org/xfn/11" />
 
 
-  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <script type="text/javascript">
+    
+
+$(document).ready(function(){
+// run every 7s
+ var count = 1;
+setInterval(function() {
+    count = ($(".slideshow :nth-child("+count+")").fadeOut().next().length == 0) ? 1 : count+1;
+    $(".slideshow :nth-child("+count+")").fadeIn();
+}, 7000);
+})
+    </script>
    <script src="home.js"></script>
     <link rel="stylesheet" type="text/css" href="home.css">
    <title>Home page</title>
@@ -60,24 +72,24 @@
 		
 		<div>
 			<!-- So I need to add slide html here -->
-			<div style="margin: 10px 0;"> <div  class="fadelinks">
+			<div style="margin: 10px 0;"> <div  class="slideshow">
 <!-- <img src="http://www.completedesignpackaging.com/getattachment/599c74f0-3db9-4c49-8f2f-d47c300f49a3/Charlotte-DNC.aspx?maxsidesize=600" width="900" height="350" align="middle"> -->
 <!-- <img alt="" src="http://s15.postimg.org/axr15xpt7/image1.jpg" width="900" height="350" > -->
 <img alt="" src="http://s13.postimg.org/kb9fyoc1j/products_618pix.jpg" width="900" height="350" >
-<img alt="" src="http://quantumwebsol.com/coffeebags/wp-content/uploads/2014/09/side-gusset-pouch11.png" width="900" height="350" >
+
 <img alt="" src="http://www.hrtlp.com/content/images/uploaded/thermaltransfer.png" width="900" height="350" >
 
 
 </div>
 </div>
-<div style="border-bottom: 1px solid #e3ddd8; width: 100%; text-align: center; margin: 5px auto 20px;"><span style="color: #1589FF; text-align: center; font-size: 120%; letter-spacing: .4em; font-family: 'Gentium Book Basic', serif; background: #fff; position: relative; bottom: -12px; padding: 0 10px 0 20px;">PRODUCTS</span></div>
+<div style="border-bottom: 1px solid #e3ddd8; width: 100%; text-align: center; margin: 5px auto 20px;"><span style="color: #007FFF; text-align: center; font-size: 120%; letter-spacing: .4em; font-family: 'Gentium Book Basic', serif; background: #fff; position: relative; bottom: -12px; padding: 0 10px 0 20px;">PRODUCTS</span></div>
 <div>
 	
 <ul class="nav-pic">
-<li><a title="" href="products/Corrugated.html"> <img alt="corrugated" src="http://s8.postimg.org/kpl7jbnf9/corrugated.jpg" /></a></li>
-<li><a title="" href="products/bags.html"> <img alt="bags" src="http://s7.postimg.org/s29hx2kez/bag.png" /></a></li>
-<li><a title="" href="products/rollfilm.html"> <img alt="plastic film" src="http://s24.postimg.org/vsdaw5vv9/roll_film.jpg" /></a></li>
-<li><a title="" href="products/labels.html"> <img alt="labels" src="http://s27.postimg.org/u6k116f3n/Color_Labels.png" /></a></li>
+<li><a title="" href="products/Corrugated.html"> <img alt="corrugated" src="http://s2.postimg.org/mcz5k2m1l/BOXES_22_GENTIUM.jpg" /></a></li>
+<li><a title="" href="products/bags.html"> <img alt="bags" src="http://s18.postimg.org/kd3go38o9/BAGS_22_GENTIUM.jpg" /></a></li>
+<li><a title="" href="products/rollfilm.html"> <img alt="roll film" src="http://s10.postimg.org/gqyq77v6h/ROLL_FILM_22_GENTIUM.jpg" /></a></li>
+<li><a title="" href="products/labels.html"> <img alt="labels" src="http://s12.postimg.org/pz725bnfh/LABELS_22_GENTIUM.jpg" /></a></li>
 </ul>
 </div>
 <div id="intro">

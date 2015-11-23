@@ -8,12 +8,24 @@ warm gray 10 - #796e65
 warm gray 7- #968c83
 warm gray 2- #cbc4bc
 warm gray 1 - #efe9e5
-red orange -  #1E90FF
+blue -  #007FFF
 */
 
 /* CSS Document */
-#test { margin: 0 auto; 
-width: 250px;
+/* csss for cycling images */
+
+
+
+.slideshow {
+    overflow: hidden;
+    width: 900px;
+    height: 350px;
+    background-color: white;
+    margin: 10px;
+}
+.slideshow img {
+    width: 950;
+    height: 400;
 }
 html {
 margin-top:0!important;
@@ -187,11 +199,12 @@ padding:3px 0;
 /* Buttons ____________________________ */
 .btn, .btn-link {
 background:url(/uniquesig1eb67cc8f22a58cc35f65bf2c2e76e30/uniquesig0/images/hor-btn-background.gif) repeat 0 0 #efe9e5;
-color:#1E90FF;
+color:#007FFF;
 font-family:'GentiumBasicRegular', serif;
 font-size:100%;
 letter-spacing:1px;
 margin:0 5px;
+
 display:inline-block;
 padding:5px 15px;
 text-transform:uppercase;
@@ -209,7 +222,7 @@ text-decoration:none!important;
 -ms-transition:color .3s ease;
 -o-transition:color .3s ease;
 -webkit-transition:color .3s ease;
-background:url(images/hor-btn-background-hover.gif) repeat 0 0 #1E90FF;
+background:url(images/hor-btn-background-hover.gif) repeat 0 0 #007FFF;
 color:#fff!important;
 transition:color .3s ease;
 cursor: pointer;
@@ -413,7 +426,7 @@ border-bottom:1px solid #cbc4bc;
 }
 
 .menu li:active,.subnav li:active,.footer a:active,.side-nav li:active,.sub-menu li:active,#content ul.hpquicknav li:active {
-background-color:#1E90FF;
+background-color:#007FFF;
 transition:none;
 }
 
@@ -601,7 +614,7 @@ font-weight: bold;
 }
 
 #content p em {
-    color: #1E90FF;
+    color: #007FFF;
     font-style: normal;
     font-weight: bold;
 }
@@ -639,11 +652,11 @@ height:157px!important;
 /* Content and gallery link styling ____________________________ */
 
 #content .storycontent a:link,.gallery a:link, .dimensions a:link {
-color:#1E90FF;
+color:#007FFF;
 }
 
 #content .storycontent a:visited,.gallery a:visited, .dimensions a:visited {
-color:#1E90FF;
+color:#007FFF;
 }
 
 #content .storycontent a:hover,.gallery a:hover, .dimensions a:hover {
@@ -657,7 +670,7 @@ text-decoration:underline
 }
 
 #content .storycontent a:active,.gallery a:active, .dimensions a:active {
-background-color:#1E90FF;
+background-color:#007FFF;
 color:#FFF;
 transition:none;
 -moz-transition:none;
@@ -719,13 +732,13 @@ text-decoration:none;
 -ms-transition:all .15s ease;
 -o-transition:all .15s ease;
 -webkit-transition:all .15s ease;
-color:#1E90FF;
+color:#007FFF;
 cursor:pointer;
 transition:all .15s ease;
 }
 
 #subNav ul li.page_item a:active {
-background-color:#1E90FF;
+background-color:#007FFF;
 color:#fff;
 transition:none;
 }
@@ -753,7 +766,7 @@ line-height:110%
 }
 
 .wheretobuy a {
-color: #1E90FF;
+color: #007FFF;
 display: block;
 font-family: 'QuattrocentoSansRegular',sans-serif;
 font-size: 100%;
@@ -772,7 +785,7 @@ transition:all .3s ease;
 }
 
 .wheretobuy a:visited {
-color: #1E90FF;
+color: #007FFF;
 }
 
 /* Dev Note: unsure of usage for these subnav tables. Commented Out.
@@ -1173,7 +1186,7 @@ padding:3px 5px 3px 3px;
 
 
 #wp_page_numbers li.active_page a {
-background:#1E90FF!important;
+background:#007FFF!important;
 border-bottom:none!important;
 border-top:none!important;
 color:#fff!important;

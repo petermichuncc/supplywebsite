@@ -1,8 +1,8 @@
 $(document).ready(function(){
 var num_of_modulenav = 0;
 	var modulenav_counter = 0;
- $('select').select2();
-  $(".js-example-basic-multiple").select2();
+
+ 
 	// module nav items - adds custom classes to first and last li
 	if(jQuery("div.menu-mainnav-container ul.menu li").length){
 		num_of_modulenav = (jQuery("div.menu-mainnav-container ul.menu li.menu-item").length)-1;
@@ -25,14 +25,14 @@ var num_of_modulenav = 0;
 			}
 	
 	// This is code the the images that fade in and out
-	 $('.fadelinks > :gt(0)').hide();
-  setInterval(function(){$('.fadelinks > :first-child').fadeOut().next().fadeIn().end().appendTo('.fadelinks');}, 7000);
+	
 
-
+$('.testselect3').SumoSelect({placeholder: 'This is a placeholder'});
 // {$("form").submit(function(){
 //     alert("Thank you for your submission");
 // });
 // }
+
 });
 
 // This is the javascript to check if the user has submitted for these fields and alerts them to do so if they have not.
