@@ -14,8 +14,8 @@ $(document).ready(function(){
 // run every 7s
  var count = 1;
 setInterval(function() {
-    count = ($(".slideshow :nth-child("+count+")").fadeOut().next().length == 0) ? 1 : count+1;
-    $(".slideshow :nth-child("+count+")").fadeIn();
+    count = ($(".slideshow :nth-child("+count+")").fadeOut("slow").next().length == 0) ? 1 : count+1;
+    $(".slideshow :nth-child("+count+")").fadeIn("slow");
 }, 7000);
 })
     </script>
