@@ -6,7 +6,15 @@
 
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+
+
+
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
    <script src="home.js"></script>
     <link rel="stylesheet" type="text/css" href="home.css">
    <title>Contact Page</title>
@@ -50,59 +58,182 @@
 <!-- {{>product}} -->
 </ul></div>         
 </div> <!-- End nav --><!-- start content div -->
-<div class="rightCol">
-				
-		<div class="post-57 page type-page status-publish hentry" id="post-57">
-			
-			<div style="width:800px; margin:0 auto;" class="storycontent">
-				    
-<h1>Contact LB Marketing</h1>
-        <h2>Main Office</h2>
-        <p>146 Dockery Lane<br />
+
+		<div style="width:800px; margin: 0 auto;" align="center"  class="storycontent">
+      <label align="center"> 
+        <h1>Contact LB Marketing</h1>
+        <h2 style="text-align: center; ">Main Office</h2>
+        <p style="text-align: center;">146 Dockery Lane<br />
         Sparta, NC 28675</p>
         
-        <p>Phone: 704.906.1135</p>
-       
+        <p style="text-align: center;">Phone: 704.906.1135</p>
+       </label>
         <br >
         <iframe  width="500" height="300" src="https://maps.google.com/maps?hl=en&amp;q=146 Dockery Lane Sparta, NC&amp;ie=UTF8&amp;t=roadmap&amp;z=16&amp;iwloc=B&amp;output=embed"><div><small></small></div></iframe> 
       
         <!-- Here is my form that allows the user to contact the company with questions -->
 <br />    <br />
-    <h3>Contact Form</h3>
-<p class="required-note" >Fields marked with * are required </p>
-        	<form name="myForm" onsubmit="return validateForm()" method="post">
-<input name="passwd" value="ymt9932a" type="hidden" />
-<p class="iframe-label"> </p>
-* First Name: <input type="text" name="fname" size="25" >&nbsp;&nbsp;&nbsp;
-* Last Name: <input type="text" name="lname" size="25">
-<p class="iframe-label"></p>
-Reason:<br />
-<select name="reason" size="1" style="">
+   <label align="center"><FONT  style="border-bottom: 1px solid #e3ddd8; width: 100%; text-align: center; margin: 5px auto 20px;"><span style="color: #007FFF; text-align: center; font-size: 120%;  font-family: 'Gentium Book Basic', serif; background: #fff; position: relative; bottom: -12px; padding: 0 10px 0 20px;"> Contact
+    Form</FONT></label>
+ <form name="contactform"  method="post" action="https://script.google.com/macros/s/AKfycbzhOcVtK4xCagDucgcic6RHNkiLaFGuXG2nVJtryK7iNPInw03S/exec">
+ 
+<table width="450px" align="center">
+ 
+<tr >
+ 
+ <td valign="top">
+ 
+ 
+ <br>
+ </td>
+ 
+
+ 
+</tr>
+
+
+<tr >
+ 
+ <td valign="top">
+ 
+  <label for="name">Name *</label>
+ <br>
+ </td>
+ 
+ <td valign="center">
+ 
+  <input align="center"  type="text" class="form-control" name="name" maxlength="50" size="30" class="form-control" id="" placeholder="Enter name">
+ 
+ </td>
+ 
+</tr>
+ <tr>
+ 
+ <td valign="top">
+ 
+  <label for="telephone">Reason:</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+
+<select name="reason" class="form-control" size="1" style="">
     <option>Select a reason </option>
     <option>Request Call Back</option>
     <option>Request Quote</option>
     <option>Provide Feedback</option>
 </select>
-<p class="iframe-label"> </p>
-Comments:<br />
-<textarea name="comments" cols="20" rows="6" ></textarea>
-<p class="iframe-label"> </p>
-* Phone: <input type="text" name="phone" required value="" size="15" id="a" >
-&nbsp;&nbsp;&nbsp;
-* Email: <input type="email" name="emailaddress" required placeholder="" value="" size="25" id="b" >
-<p class="iframe-label"> </p>
-* Zip Code: <input type="text" name="zip" value="" required size="10" id="c" >
+ 
+ </td>
+ 
+</tr>
 
-<p>&nbsp;</p>
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="comments">Comments *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+ <textarea class="form-control" rows="5" id="comment"></textarea>
+ 
+ </td>
+ 
+</tr>
+ 
 
-<input type="submit" name="submit" value=" SUBMIT "   class="btn">
+ <tr>
+ 
+ <td valign="top">
+ 
+  <label for="telephone">Telephone Number</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="telephone" maxlength="30" size="30" class="form-control" id="" placeholder="Enter telephone number">
+ 
+ </td>
+ 
+</tr>
+
+
+
+
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="email">Email Address *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="email" maxlength="80" size="30" class="form-control" id="" placeholder="Enter email address">
+ 
+ </td>
+ 
+</tr>
+
+ <tr>
+ 
+ <td valign="top">
+ 
+  <label for="email">Zipcode</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="zipcode" maxlength="80" size="30" class="form-control" id="" placeholder="Enter zipcode">
+ 
+ </td>
+ 
+</tr>
+<tr align="center">
+ 
+ <td  >
+ 
+ <button  type="submit" value="Send" class="btn btn-default">Submit</button>
+ 
+ </td>
+ 
+</tr>
+ 
+ 
+</table>
+ 
 </form>
+
+     
+
+ 
+
+
+     
+      </div>		
+     
+		<div class="post-57 page type-page status-publish hentry" id="post-57">
+			
+			<div style="width:800px; margin:0 auto;" class="storycontent">
+				    
+
+        	
+
 
 			</div>
 	
 			<div class="postBreak"></div>
-		</div>
-	</div>
+		</div> */
+
+
+
 
 
 		</html>
