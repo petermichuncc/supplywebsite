@@ -6,8 +6,16 @@
 
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
    <script src="../home.js"></script>
+   <script src="photos.js"></script>
     <link rel="stylesheet" type="text/css" href="../home.css">
    <title>Corrugated Photos</title>
 </head>
@@ -41,13 +49,13 @@
 <li id="menu-item-4471" ><a href="">Company</a>
 <ul class="sub-menu">
 	<li id="menu-item-4466" ><a href="">About</a></li>
-	<li id="menu-item-4467" ><a href="../contact.html">Contact Us</a></li>
+	<li id="menu-item-4467" ><a href="../contact.php">Contact Us</a></li>
 	
 
 
 </ul>
 </li>
-<li id="menu-item-4470" ><a href="../contact.html">Contact Us</a></li>
+<li id="menu-item-4470" ><a href="../contact.php">Contact Us</a></li>
 
 <!-- {{>product}} -->
 </ul></div>         
@@ -63,10 +71,21 @@
 
 <div>
 <ul class="nav-pic">
-<li><a title="" href=""> <img alt="" src="http://www.westmed.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/roll-stock-materials.jpg" /></a></li>
-<li><a title="" href=""> <img alt="" src="http://3.imimg.com/data3/DF/SH/MY-3603521/printed-laminated-film-roll-250x250.jpg" /></a></li>
-<li><a title="" href=""> <img alt="" src="http://image.made-in-china.com/43f34j00rKNtmaGCZkcl/Instant-Tea-Powder-Plastic-Packaging-Roll-Film-Food-Packaging-Roll-Film.jpg" /></a></li>
-<li><a title="" href=""> <img alt="" src="http://3.imimg.com/data3/WJ/WC/MY-3873061/printing-plastic-roll-film-for-flexible-packaging--250x250.jpg" /></a></li>
+<li>
+<a class="fancybox" href="http://www.westmed.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/roll-stock-materials.jpg" data-fancybox-group="gallery" title=""><img src="http://www.westmed.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/roll-stock-materials.jpg" alt="" /></a>
+
+</li>
+<li>
+<a class="fancybox" href="http://3.imimg.com/data3/DF/SH/MY-3603521/printed-laminated-film-roll-250x250.jpg" data-fancybox-group="gallery" title=""><img src="http://3.imimg.com/data3/DF/SH/MY-3603521/printed-laminated-film-roll-250x250.jpg" alt="" /></a>
+
+</li>
+<li>
+<a class="fancybox" href="http://image.made-in-china.com/43f34j00rKNtmaGCZkcl/Instant-Tea-Powder-Plastic-Packaging-Roll-Film-Food-Packaging-Roll-Film.jpg" data-fancybox-group="gallery" title=""><img src="http://image.made-in-china.com/43f34j00rKNtmaGCZkcl/Instant-Tea-Powder-Plastic-Packaging-Roll-Film-Food-Packaging-Roll-Film.jpg" alt="" /></a>
+
+</li>
+<li>
+<a class="fancybox" href="http://3.imimg.com/data3/WJ/WC/MY-3873061/printing-plastic-roll-film-for-flexible-packaging--250x250.jpg" data-fancybox-group="gallery" title=""><img src="http://3.imimg.com/data3/WJ/WC/MY-3873061/printing-plastic-roll-film-for-flexible-packaging--250x250.jpg" alt="" /></a>
+</li>
 </ul>
 </div>
 <div id="intro">
@@ -85,7 +104,7 @@
     	<div style="float:left">
             <ul>
             <li><a href="">Home</a></li>
-            <li class="contact-us"><a href="contact.html">Contact Us</a></li>
+            <li class="contact-us"><a href="../contact.html">Contact Us</a></li>
 	    <li class="phone">Questions? Call us 704-906-1135</li>
             <li class="copyright"> Lynn Blalock Marketing, LLC &copy;2015</li>
             </ul>

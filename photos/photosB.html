@@ -6,8 +6,16 @@
 
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
    <script src="../home.js"></script>
+   <script src="photos.js"></script>
     <link rel="stylesheet" type="text/css" href="../home.css">
    <title>Corrugated Photos</title>
 </head>
@@ -63,10 +71,20 @@
 
 <div>
 <ul class="nav-pic">
-<li><a title="" href=""> <img alt="" src="http://www.taipakconverting.com/images/by-product-thumbnails/slideshow/gusset-bag02-l.png" /></a></li>
-<li><a title="" href=""> <img alt="" src="http://www.taipakconverting.com/images/by-product-thumbnails/slideshow/gusset-bag01-l.png" /></a></li>
-<li><a title="" href=""> <img alt="" src="http://image.made-in-china.com/2f0j00SZGEtTQCOsbk/Side-Gusset-Flat-Bottom-Gusset-Bag.jpg" /></a></li>
-<li><a title="" href=""> <img alt="" src="http://www.akropack.com/upload/pics/product/img-prod-pack-quadro-sealed-bag.jpg" /></a></li>
+<li>
+<a class="fancybox" href="http://www.taipakconverting.com/images/by-product-thumbnails/slideshow/gusset-bag02-l.png" data-fancybox-group="gallery" title=""><img src="http://www.taipakconverting.com/images/by-product-thumbnails/slideshow/gusset-bag02-l.png" alt="" /></a>
+
+</li>
+<li>
+<a class="fancybox" href="http://www.taipakconverting.com/images/by-product-thumbnails/slideshow/gusset-bag01-l.png" data-fancybox-group="gallery" title=""><img src="http://www.taipakconverting.com/images/by-product-thumbnails/slideshow/gusset-bag01-l.png" alt="" /></a>
+
+</li>
+<li>
+<a class="fancybox" href="http://image.made-in-china.com/2f0j00SZGEtTQCOsbk/Side-Gusset-Flat-Bottom-Gusset-Bag.jpg" data-fancybox-group="gallery" title=""><img src="http://image.made-in-china.com/2f0j00SZGEtTQCOsbk/Side-Gusset-Flat-Bottom-Gusset-Bag.jpg" alt="" /></a>
+</li>
+<li>
+<a class="fancybox" href="http://www.akropack.com/upload/pics/product/img-prod-pack-quadro-sealed-bag.jpg" data-fancybox-group="gallery" title=""><img src="http://www.akropack.com/upload/pics/product/img-prod-pack-quadro-sealed-bag.jpg" alt="" /></a>
+</li>
 </ul>
 </div>
 <div id="intro">
@@ -85,7 +103,7 @@
     	<div style="float:left">
             <ul>
             <li><a href="">Home</a></li>
-            <li class="contact-us"><a href="contact.html">Contact Us</a></li>
+            <li class="contact-us"><a href="../contact.html">Contact Us</a></li>
 	    <li class="phone">Questions? Call us 704-906-1135</li>
             <li class="copyright"> Lynn Blalock Marketing, LLC &copy;2015</li>
             </ul>

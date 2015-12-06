@@ -6,8 +6,16 @@
 
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
    <script src="../home.js"></script>
+   <script src="photos.js"></script>
     <link rel="stylesheet" type="text/css" href="../home.css">
    <title>Corrugated Photos</title>
 </head>
@@ -63,12 +71,22 @@
 
 <div>
 <ul class="nav-pic">
-<li><a title="" href=""> <img alt="" src="http://www.cardboarddisplays.com.hk/photo/pl1545524-retail_corrugated_cardboard_floor_displays_with_sturdy_and_durable.jpg" /></a></li>
-<li><a title="" href=""> <img alt="" src="http://img.frbiz.com/nimg/76/94/bc68bb845b8b23827a0f2ff0fd23-0x0-0/retail_cardboard_counter_strong_style_color_b82220_display_strong_unit_corrugated_pop_floor_display_4c_offset_printing.jpg" /></a></li>
-<li><a title="" href=""> <img alt="" src="https://anythingprinting.files.wordpress.com/2015/10/corrugated_boxes_material_large.jpg?w=604&h=211" /></a></li>
-<li><a title="" href=""> <img alt="" src="https://boxespackaging.files.wordpress.com/2013/01/corrugated-boxes.jpg" /></a></li>
+<li>
+<a class="fancybox" href="http://www.cardboarddisplays.com.hk/photo/pl1545524-retail_corrugated_cardboard_floor_displays_with_sturdy_and_durable.jpg" data-fancybox-group="gallery" title=""><img src="http://www.cardboarddisplays.com.hk/photo/pl1545524-retail_corrugated_cardboard_floor_displays_with_sturdy_and_durable.jpg" alt="" /></a>
+ </li>
+<li>
+<a class="fancybox" href="http://img.frbiz.com/nimg/76/94/bc68bb845b8b23827a0f2ff0fd23-0x0-0/retail_cardboard_counter_strong_style_color_b82220_display_strong_unit_corrugated_pop_floor_display_4c_offset_printing.jpg" data-fancybox-group="gallery" title=""><img src="http://img.frbiz.com/nimg/76/94/bc68bb845b8b23827a0f2ff0fd23-0x0-0/retail_cardboard_counter_strong_style_color_b82220_display_strong_unit_corrugated_pop_floor_display_4c_offset_printing.jpg" alt="" /></a> 
+	</li>
+<li>
+<a class="fancybox" href="https://anythingprinting.files.wordpress.com/2015/10/corrugated_boxes_material_large.jpg?w=604&h=211" data-fancybox-group="gallery" title=""><img src="https://anythingprinting.files.wordpress.com/2015/10/corrugated_boxes_material_large.jpg?w=604&h=211" alt="" /></a> 
+	</li>
+<li> 
+<a class="fancybox" href="https://boxespackaging.files.wordpress.com/2013/01/corrugated-boxes.jpg" data-fancybox-group="gallery" title=""><img src="https://boxespackaging.files.wordpress.com/2013/01/corrugated-boxes.jpg" alt="" /></a> 
+</li>
 </ul>
 </div>
+
+
 <div id="intro">
 <!-- <h1 style="font-family: 'Quattrocento Sans', sans-serif; text-transform: uppercase; letter-spacing: 1px; text-align: justify; font-size: 150%; line-height: 1.8em; color: #8a7967; font-weight: 300;"></h1> -->
 </div>
@@ -85,7 +103,7 @@
     	<div style="float:left">
             <ul>
             <li><a href="">Home</a></li>
-            <li class="contact-us"><a href="contact.html">Contact Us</a></li>
+            <li class="contact-us"><a href="../contact.html">Contact Us</a></li>
 	    <li class="phone">Questions? Call us 704-906-1135</li>
             <li class="copyright"> Lynn Blalock Marketing, LLC &copy;2015</li>
             </ul>
