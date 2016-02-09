@@ -15,7 +15,10 @@ blue -  #007FFF
 /* csss for cycling images */
 
 
-
+a.{
+    padding:10px;
+    
+}
 .slideshow {
     overflow: hidden;
     width: 900px;
