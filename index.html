@@ -25,16 +25,7 @@ setInterval(function() {
 })
     </script>
    <script src="home.js"></script>
-   <script>
-var today = new Date();
-
-var yyyy = today.getFullYear();
-
-
-today = yyyy;
-
-document.getElementById("demo").innerHTML = today;
-</script>
+   
     <link rel="stylesheet" type="text/css" href="home.css">
    <title>Home page</title>
 </head>
@@ -129,7 +120,12 @@ document.getElementById("demo").innerHTML = today;
             <li><a href="">Home</a></li>
             <li class="contact-us"><a href="contact.html">Contact Us</a></li>
 	    <li class="phone">Questions? Call us 336-372-2057</li>
-            <li class="copyright"> LB Marketing, LLC &copy;</li><span id="demo"></span>
+            <li class="copyright"> LB Marketing, LLC &copy;</li><script>
+var today = new Date();
+var yyyy = today.getFullYear();
+today = yyyy;
+document.write(today);
+</script>
             </ul>
         </div>
         
