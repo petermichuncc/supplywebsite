@@ -13,7 +13,16 @@ Add better photo on the start page for plastic products
 
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
  <script type="text/javascript">
-    
+    <script>
+var today = new Date();
+
+var yyyy = today.getFullYear();
+
+
+today = yyyy;
+
+document.getElementById("demo").innerHTML = today;
+</script>
 
 $(document).ready(function(){
 // run every 7s
@@ -119,7 +128,7 @@ setInterval(function() {
             <li><a href="">Home</a></li>
             <li class="contact-us"><a href="contact.html">Contact Us</a></li>
 	    <li class="phone">Questions? Call us 336-372-2057</li>
-            <li class="copyright"> LB Marketing, LLC &copy;2016</li>
+            <li class="copyright"> LB Marketing, LLC &copy;</li><p id="demo"></p>
             </ul>
         </div>
         
